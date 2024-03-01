@@ -1,0 +1,17 @@
+version: "3"
+services:
+  awsmonogodbserver:
+    image: mongo:latest
+    container_name: "awsmonogodbserver"
+    ports:
+      - 27017:27017
+    networks:
+      - springboot-db-net
+    
+  sb-jwt-mongo-app:
+    image: sbjwtmongo
+    container_name: "sb-jwt-mongo-app"
+    ports:
+      - 8080:8080
+    links:
+      - awsmonogodbserver
