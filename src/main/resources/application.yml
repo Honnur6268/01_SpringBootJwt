@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+#      uri: mongodb://localhost:27017/SpringBootJwt
+      host: localhost
+      port: 27017
+      database: SpringBootJwt
+
+
+adminEmail: admin@gmail.com
+adminFirstname: admin
+adminLastname: admin
+adminPassword: $2a$12$zHCYYSny9bwTlQgj1PC64./A40QBpWc.BXicbBA5rXi2kBU2LnWpG
+
+secretKey: 779854da54861254a1440145s42a15a7424548s2sB245889C81144S15879A

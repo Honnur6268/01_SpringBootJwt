@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "adminEmail",
+    "type": "java.lang.String",
+    "description": "This denotes admin email 'adminEmail'"
+  },
+  {
+    "name": "adminFirstname",
+    "type": "java.lang.String",
+    "description": "This denotes admin first name 'adminFirstname'"
+  },
+  {
+    "name": "adminPassword",
+    "type": "java.lang.String",
+    "description": "This denotes admin password which is encrypted 'adminPassword'"
+  },
+  {
+    "name": "adminLastname",
+    "type": "java.lang.String",
+    "description": "This denotes admin last name 'adminLastname'"
+  },
+  {
+    "name": "secretKey",
+    "type": "java.lang.String",
+    "description": "This denotes JWT's Secret key 'secretKey'"
+  }
+]}
