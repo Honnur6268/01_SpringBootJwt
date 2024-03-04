@@ -5,9 +5,7 @@ services:
     container_name: "awsmonogodbserver"
     ports:
       - 27017:27017
-    networks:
-      - springboot-db-net
-    
+
   sb-jwt-mongo-app:
     image: sbjwtmongo
     container_name: "sb-jwt-mongo-app"
