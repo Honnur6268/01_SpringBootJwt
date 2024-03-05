@@ -2,7 +2,7 @@ spring:
   data:
     mongodb:
 #      uri: mongodb://localhost:27017/SpringBootJwt
-      host: localhost
+      host: awsmonogodbserver
       port: 27017
       database: SpringBootJwt
 
